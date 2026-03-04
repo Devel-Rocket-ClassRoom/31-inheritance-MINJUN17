@@ -12,7 +12,7 @@ class Intern:Employee
     public new void PrintInfo()
     {
         Console.WriteLine($"[인턴] {GetName()}");
-        Console.WriteLine($"기본급: {GetBaseSalary():N0}");
-        Console.WriteLine($"총급여: {CalculatePay():N0}");
+        Console.WriteLine($"기본급: {GetBaseSalary():N0}원");
+        Console.WriteLine($"총급여: {CalculatePay():N0}원");
     }
 }
